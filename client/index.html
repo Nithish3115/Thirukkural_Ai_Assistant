@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>திருக்குறள் AI - Futuristic Thirukkural Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <style>
+      /* Glass effect styles */
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      }
+      
+      .glass-dark {
+        background: rgba(14, 14, 18, 0.7);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      /* Pulse animation for search */
+      @keyframes ripple {
+        0% {transform: scale(0.8); opacity: 1;}
+        100% {transform: scale(2); opacity: 0;}
+      }
+
+      .ripple {
+        position: absolute;
+        border-radius: 50%;
+        transform: scale(0);
+        animation: ripple 1.5s linear infinite;
+      }
+
+      /* Audio wave animation */
+      @keyframes wave {
+        0% {height: 5px;}
+        50% {height: 20px;}
+        100% {height: 5px;}
+      }
+
+      .audio-wave div {
+        animation: wave 1.2s ease-in-out infinite;
+        background: linear-gradient(90deg, #00F0FF, #8A00FF);
+        margin: 0 1px;
+        width: 3px;
+        border-radius: 2px;
+      }
+
+      .audio-wave div:nth-child(1) { animation-delay: 0s; }
+      .audio-wave div:nth-child(2) { animation-delay: 0.2s; }
+      .audio-wave div:nth-child(3) { animation-delay: 0.4s; }
+      .audio-wave div:nth-child(4) { animation-delay: 0.6s; }
+      .audio-wave div:nth-child(5) { animation-delay: 0.8s; }
+
+      /* Gradient text */
+      .gradient-text {
+        background: linear-gradient(90deg, #6C00FF, #00A3FF, #00F0FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: rgba(14, 14, 18, 0.3);
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #6C00FF, #00A3FF);
+        border-radius: 10px;
+      }
+
+      /* Animation classes */
+      .animate-pulse-slow {
+        animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+
+      .delay-1000 {
+        animation-delay: 1s;
+      }
+
+      .delay-2000 {
+        animation-delay: 2s;
+      }
+
+      /* Dark mode colors */
+      :root {
+        --color-primary-500: #6C00FF;
+        --color-primary-600: #8A00FF;
+        --color-primary-700: #7209B7;
+        --color-secondary-400: #00F0FF;
+        --color-secondary-500: #00A3FF;
+        --color-secondary-600: #0077B6;
+        --color-accent-300: #FFF176;
+        --color-accent-400: #FAFF00;
+        --color-accent-500: #F4FF00;
+        --color-dark-800: #0E0E12;
+        --color-dark-700: #1E1E24;
+        --color-dark-600: #2D2D3A;
+        --color-light-100: #FFFFFF;
+        --color-light-200: #F0F0F4;
+        --color-light-300: #E1E1E6;
+        --color-neon-pink: #FF00E4;
+        --color-neon-blue: #00F0FF;
+        --color-neon-purple: #BD00FF;
+      }
+
+      /* Font families */
+      .font-orbitron {
+        font-family: 'Orbitron', sans-serif;
+      }
+
+      .font-inter {
+        font-family: 'Inter', sans-serif;
+      }
+
+      .font-mono {
+        font-family: 'Space Mono', monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- This script injects a replit badge into the page, please feel free to remove this line -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-badge-v3.js"></script>
+  </body>
+</html>
