@@ -56,7 +56,7 @@ export default function Footer() {
           transition={{ duration: 0.5, delay: 0.4 }}
         >
           <p className="text-xs text-light-300 mb-4 md:mb-0">
-            &copy; 2023 திருக்குறள் AI • Thirukkural text in public domain • Powered by FAISS vector search
+            &copy; 2025 திருக்குறள் AI • Thirukkural text in public domain • Powered by FAISS vector search
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-xs text-light-300 hover:text-primary-500 transition-colors duration-300">Privacy Policy</a>

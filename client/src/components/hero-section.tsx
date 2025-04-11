@@ -211,7 +211,7 @@ export default function HeroSection() {
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <a 
-                      href="https://github.com/yourusername" 
+                      href="https://github.com/Nithish3115" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="flex items-center px-4 py-2 bg-dark-900 rounded-lg hover:bg-dark-800 transition-colors"
@@ -220,7 +220,7 @@ export default function HeroSection() {
                       <span>GitHub</span>
                     </a>
                     <a 
-                      href="https://linkedin.com/in/yourusername" 
+                      href="https://www.linkedin.com/in/nithish-s-53a9a5292/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="flex items-center px-4 py-2 bg-dark-900 rounded-lg hover:bg-dark-800 transition-colors"
@@ -335,7 +335,7 @@ export default function HeroSection() {
                         Step 1: Clone the Repository
                       </h4>
                       <div className="bg-dark-900 p-3 rounded-md text-sm font-mono overflow-x-auto">
-                        <code>git clone https://github.com/yourusername/thirukkural-ai.git</code>
+                        <code>git clone https://github.com/Nithish3115/Thirukkural_Ai_Assistant.git</code>
                       </div>
                     </div>
                     
