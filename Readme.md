@@ -110,9 +110,5 @@ The LLM generates AI-powered explanations and advice based on the selected Thiru
 Thirukkural AI is designed to offer instant, AI-generated interpretations and explanations of Thirukkural couplets. Whether you're a student, researcher, or simply an enthusiast, this app helps you explore and appreciate the timeless wisdom of the Thirukkural in an interactive, AI-enhanced format.
 
 
-## 👥 Contributors
-- Your Name — Creator & Developer
-- Open to contributions — feel free to fork and submit pull requests!
-
 ## 📄 License
 This project is licensed under the MIT License.
