@@ -1,0 +1,8 @@
+faiss-cpu             
+Flask                 
+gTTS                  
+pip                   
+python-dotenv         
+sentence-transformers 
+setuptools             
+streamlit             
